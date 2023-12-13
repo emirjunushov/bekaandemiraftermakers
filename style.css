@@ -4,3 +4,20 @@ body {
   margin: 0;
   width: 100%;
 }
+/* navar */
+.navbar {
+  display: flex !important;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  align-items: center;
+}
+.navbar > a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navbar > a:hover {
+  color: #cdaa7d;
+  text-decoration: underline;
+}
+/* navar */
