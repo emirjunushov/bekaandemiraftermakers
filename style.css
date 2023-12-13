@@ -23,6 +23,7 @@ body {
   align-items: center;
   width: 34%;
   margin-top: 250px;
+  cursor: default;
 }
 /* info block */
 
@@ -32,9 +33,28 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 90px;
+  cursor: default;
 }
 
 .scrol-img {
   margin: 0 10px 0 0;
 }
 /* scrol */
+
+/* navar */
+.navbar {
+  display: flex !important;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  align-items: center;
+}
+.navbar > a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.navbar > a:hover {
+  color: #cdaa7d;
+  text-decoration: underline;
+}
+/* navar */
