@@ -3,4 +3,38 @@ body {
   color: white;
   margin: 0;
   width: 100%;
+  background-image: url("./IMAGE/bgc.svg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+/* info block */
+.info-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  width: 100%;
+}
+
+.info-block-h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+  margin-top: 250px;
+}
+/* info block */
+
+/* scrol */
+.scrol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.scrol-img {
+  margin: 0 10px 0 0;
+}
+/* scrol */
