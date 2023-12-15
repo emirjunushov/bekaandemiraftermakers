@@ -52,6 +52,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   text-decoration: none;
+  transition: 0.8s;
 }
 .navbar > a:hover {
   color: #cdaa7d;
